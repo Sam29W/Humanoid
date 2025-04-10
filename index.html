@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Samith's Portfolio</title>
+
+    <style>
+        /* Reset & Base Styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Arial', sans-serif;
+        }
+
+        body {
+            background-color: #0d0d0d;
+            color: #ffffff;
+            line-height: 1.6;
+        }
+
+        /* Header Section */
+        header {
+            text-align: center;
+            padding: 50px 20px 20px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            color: #0ff;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            color: #aaa;
+        }
+
+        /* Profile Pic Section */
+        .profile-pic {
+            display: flex;
+            justify-content: center;
+            margin-top: 20px;
+        }
+
+        .profile-pic img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            border: 3px solid #0ff;
+            box-shadow: 0 0 20px #0ff;
+        }
+
+        /* Navigation Bar */
+        nav {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin: 30px 0;
+        }
+
+        nav a {
+            color: #0ff;
+            text-decoration: none;
+            font-size: 18px;
+            transition: 0.3s;
+        }
+
+        nav a:hover {
+            color: #fff;
+        }
+
+        /* Sections Content */
+        section {
+            max-width: 900px;
+            margin: auto;
+            padding: 30px 20px;
+        }
+
+        h2 {
+            color: #0ff;
+            margin-bottom: 15px;
+        }
+
+        ul {
+            padding-left: 20px;
+        }
+
+        /* Footer */
+        footer {
+            text-align: center;
+            margin-top: 50px;
+            padding: 20px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        /* Buttons style */
+        button {
+            background-color: #0ff;
+            color: #000;
+            border: none;
+            padding: 10px 20px;
+            cursor: pointer;
+            margin-top: 20px;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+
+        button:hover {
+            background-color: #fff;
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- HEADER SECTION -->
+    <header>
+        <h1>Hey, I'm Samith</h1>
+        <p>Web Developer | Programmer | Learner</p>
+    </header>
+
+    <!-- PROFILE PICTURE SECTION -->
+    <div class="profile-pic">
+        <!-- PLACE YOUR PROFILE PICTURE IN SAME FOLDER & RENAME AS profile.jpg -->
+        <img src="profile.jpg" alt="Samith's Photo">
+    </div>
+
+    <!-- NAVIGATION MENU -->
+    <nav>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+    <!-- ABOUT SECTION -->
+    <section id="about">
+        <h2>About Me</h2>
+        <p>I am a passionate 2nd-year engineering student exploring the world of web development, programming, and technology. Always learning, always building!</p>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section id="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML | CSS | JavaScript</li>
+            <li>Python Programming</li>
+            <li>Basic C / C++</li>
+            <li>Learning React</li>
+        </ul>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section id="projects">
+        <h2>Projects</h2>
+        <ul>
+            <li>Portfolio Website (This one!)</li>
+            <li>Calculator using Python</li>                                
+            <li>Weather App using API</li>
+            <li>More coming soon...</li>
+        </ul>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p>Email:samithshivakumar1@gmail.com</p>
+        <p>LinkedIn: <a href="www.linkedin.com/in/samith-shivakumar-98901430a" target="_blank">www.linkedin.com/in/samith-shivakumar-98901430a</a></p>
+        <p>Github: https://github.com/Sam29W/Sample-projects-python-.git</p>
+
+        <button onclick="alert('Thank you for visiting!')">Say Hi!</button>
+    </section>
+
+    <!-- FOOTER -->
+    <footer>
+        &copy; 2025 Samith | All Rights Reserved
+    </footer>
+
+</body>
+</html>
